@@ -2,7 +2,7 @@ public class Wizard extends Magii {
     public Wizard(){
         hitPoints = 9;
         armorClass = 10;
-        armorType = ArmorType.Light;
+        armorType = ArmorType.None;
         weaponType = WeaponType.Staff;
     }
     public void solvesProblems(){

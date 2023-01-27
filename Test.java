@@ -22,6 +22,18 @@ public class Test {
         cleric.wearArmor();
         wizard.wearArmor();
 
+        knight.useWeapon();
+        barbarian.useWeapon();
+        ranger.useWeapon();
+        rogue.useWeapon();
+        cleric.useWeapon();
+        wizard.useWeapon();
+
+        knight.hasManeuvers();
+        barbarian.tendsToRage();
+        ranger.sneaksAround();
+        rogue.
+
 
 
 
