@@ -8,4 +8,7 @@ public class Ranger extends Scout{
     public void willToSurvive(){
         System.out.println("I will survive in the wild!");
     }
+    public String toString(){
+        return super.toString() + "ranger.";
+    }
 }

@@ -8,4 +8,7 @@ public class Rogue extends Scout{
     public void picksLock(){
         System.out.println("Picking locks is my speciality!");
     }
+    public String toString(){
+        return super.toString() + "rogue.";
+    }
 }

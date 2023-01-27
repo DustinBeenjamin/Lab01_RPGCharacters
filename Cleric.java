@@ -8,4 +8,7 @@ public class Cleric extends Magii{
         public void healsOthers(){
             System.out.println("My friends rely on my medical skills!");
         }
+        public String toString(){
+            return super.toString() + "cleric.";
+        }
 }

@@ -4,11 +4,11 @@ public abstract class Character{
     protected ArmorType armorType;
     protected WeaponType weaponType;
 
-    public void wearArmor(){
-        System.out.println("I wear ");
-    }                                               //ARE THESE NECESSARY?????
-    public void useWeapon(){
-        System.out.println("I wield ");
+    protected void wearArmor(){
+        System.out.println(this.armorType);
+    }                                               
+    protected void useWeapon(){
+        System.out.println(weaponType);
     }
     public String toString(){
         return "I am a ";

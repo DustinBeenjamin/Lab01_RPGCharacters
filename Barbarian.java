@@ -7,4 +7,7 @@ public class Barbarian extends MartialArtist{
     public void tendsToRage(){
         System.out.println("When I get angry, I fight better!");
     }
+    public String toString(){
+        return super.toString() + "barbarian.";
+    }
 }

@@ -1,5 +1,8 @@
 public enum ArmorType {
-    Heavy("heavy"), Medium("medium"), Light("light");
+    Heavy("heavy"), 
+    Medium("medium"), 
+    Light("light"), 
+    None("no");
 
     private String armorWeight;
 

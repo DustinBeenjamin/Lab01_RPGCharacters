@@ -8,4 +8,7 @@ public class Wizard extends Magii {
     public void solvesProblems(){
         System.out.println("I am the best problem solver in the party!");
     }
+    public String toString(){
+        return super.toString() + "wizard.";
+    }
 }
