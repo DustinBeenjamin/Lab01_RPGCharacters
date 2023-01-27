@@ -15,6 +15,13 @@ public class Test {
         System.out.println(cleric);
         System.out.println(wizard);
 
+        knight.wearArmor();
+        barbarian.wearArmor();
+        ranger.wearArmor();
+        rogue.wearArmor();
+        cleric.wearArmor();
+        wizard.wearArmor();
+
 
 
 
